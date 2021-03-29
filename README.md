@@ -44,16 +44,19 @@ on the robot.
 # Repository Structure:
 The repository is organized by folder, as shown below.
 ## Hardware
-The hardware folder contains several components of the hardware design. Unfortunately, due to licensing restrictions, I'm unable to redistribute several of the footprints used in the project, so I have attached several rendered copies of the KiCAD project output, until such time as I'm able to upload the project files. This folder contains:
-* Schematic in PDF form
-* PCB layout in PDF form
-* Archived Gerber files
-* Bill of materials
+The hardware folder contains the KiCAD project files and output Gerbers and PDFs
+for easy viewing. It includes:
+* PDF schematic
+* STEP file of PCB
+* Bill of Materials
 * Interactive HTML BOM for PCB assembly
+* KiCAD project files
+* Archive of Gerber board files and PDF of PCB layers
+
 ## Software
 The software folder contains the code used to enable the power management behaviors.
-## Wiki
-The wiki contains documentation of the digital communications protocol and an explanation of the operation of the device.
+## Docs
+The docs folder contains documentation of the digital communications protocol and an explanation of the operation of the device.
 
 # License
 This project is copyright (C) 2021 by Lukas Severinghaus. It is licensed under the GNU GPLV3.
