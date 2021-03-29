@@ -193,7 +193,7 @@ void loop() {
 
 void processManualControl(){
   char cmd = debug.read();
-  if(cmd == 'm'){
+  if(cmd == 'x'){
     manualControl = false;
     debug.println("&Exit manual;");
   }else if(cmd == 'r'){
@@ -217,11 +217,7 @@ void printDebug() {
   debug.print(" ");
   debug.print(i);
   debug.print(" ");
-  debug.print(analogRead(CURRENT_ADC_PIN));
-  debug.print(" ");
   debug.print(v);
-  debug.print(" ");
-  debug.print(analogRead(VOLTAGE_ADC_PIN));
   debug.print(" ");
   printFaultState();
   debug.println(";");
@@ -232,19 +228,19 @@ void printDebug() {
 void printFaultState(){
   switch(fault_state){
     case FAULT_CLEAR:
-      debug.print("clear");
+      debug.print("c");
       break;
     case FAULT_TIME:
-      debug.print("time");
+      debug.print("t");
       break;
     case FAULT_SOFT_TRIP:
-      debug.print("soft");
+      debug.print("s");
       break;
     case FAULT_HARD_TRIP:
-      debug.print("hard");
+      debug.print("h");
       break;
     default:
-      debug.print("unknown");
+      debug.print("u");
       break;
   }
 }
