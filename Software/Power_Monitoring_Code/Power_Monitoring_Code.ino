@@ -1,6 +1,25 @@
-#include <SoftwareSerial.h>
+/**
+ * File: Power_Monitoring_Code.ino
+ * Author: Lukas Severinghaus
+ * Date: March 28, 2021
+ * Purpose: Enable power management and monitoring features
+ * for my EGR216 honors contract project PCB.
+ *
+ * License:
+ * Copyright (C) 2021 Lukas Severinghaus
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License version 3
+ * as published by the Free Software Foundation;
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
 
-//EGR216 Honors Contract Code
+#include <SoftwareSerial.h>
 
 SoftwareSerial debug(21, 22); //Rx, Tx
 #define DEBUG_BAUD 9600
