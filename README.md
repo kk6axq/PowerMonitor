@@ -3,7 +3,9 @@ This is a power management board for small robotics applications. This project w
 developed as part of an honors contract for EGR216, electrical fundamentals,
 during my Spring 2021 semester at Arizona State University, under the guidance
 of Dr. Ayan Mallik.
+
 <img src="https://raw.githubusercontent.com/kk6axq/PowerMonitor/main/media/PCB%20Iso%20View.png" alt="PCB Photo" width="600">
+
 # Purpose
 The purpose of this project was to interface with a LiPo battery for a robotics
 project I am developing in another course. The purpose of the board was to
