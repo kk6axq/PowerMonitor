@@ -3,7 +3,7 @@ This is a power management board for small robotics applications. This project w
 developed as part of an honors contract for EGR216, electrical fundamentals,
 during my Spring 2021 semester at Arizona State University, under the guidance
 of Dr. Ayan Mallik.
-
+<img src="https://raw.githubusercontent.com/kk6axq/PowerMonitor/main/media/PCB%20Iso%20View.png" alt="PCB Photo" width="600">
 # Purpose
 The purpose of this project was to interface with a LiPo battery for a robotics
 project I am developing in another course. The purpose of the board was to
@@ -40,7 +40,7 @@ on the robot.
 * Dual LM2576 5V buck converter
 * MIC5504 3.3V regulator for current sensor
 * Si4435 P-Channel MOSFET for short circuit protection and load switching
-
+<img src="https://raw.githubusercontent.com/kk6axq/PowerMonitor/main/media/Schematic.png" alt="Schematic" width="600">
 # Repository Structure:
 The repository is organized by folder, as shown below.
 ## Hardware
